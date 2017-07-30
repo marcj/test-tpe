@@ -9,12 +9,12 @@ kpi.send(1, 1)
 job.progress(1,3)
 print('kpi 1')
 
-time.sleep(2)
+time.sleep(5)
 kpi.send(2, math.sin(job.get_parameter('x')))
 job.progress(2, 3)
 
 print('kpi ' + str(math.sin(job.get_parameter('x'))))
-time.sleep(2)
+time.sleep(5)
 job.progress(3, 3)
 
 print('done')
