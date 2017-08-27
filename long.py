@@ -2,7 +2,7 @@ import aetros.backend
 import math
 import time
 
-job = aetros.backend.start_job('marcj/asd-asdasd/long-running')
+job = aetros.backend.start_job('Aetros2/joooep/long')
 kpi = job.create_channel('kpi', kpi=True, main=True, max_optimization=False)
 
 for i in range(1, 2000):
