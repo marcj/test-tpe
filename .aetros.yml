@@ -1,0 +1,5 @@
+command: long.py
+model: marcj/test:tpe
+parameters:
+ x: 0.5
+
