@@ -1,3 +1,4 @@
+model: marcj/test:tpe
 command: long.py
 
 parameters:
